@@ -6,6 +6,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
@@ -69,6 +70,7 @@ class SplashScreenActivity : AppCompatActivity() {
         splashScreenViewModel.getUserSession().observe(this) { userData ->
             userData?.let {
                 if (it.token.isEmpty()) {
+                    Log.d("tokennya",it.token)
                     val intent = Intent(this@SplashScreenActivity, OnBoardingActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
                     startActivity(intent)

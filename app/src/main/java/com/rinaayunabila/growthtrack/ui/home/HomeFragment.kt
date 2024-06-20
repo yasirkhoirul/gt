@@ -54,7 +54,7 @@ class HomeFragment : Fragment() {
 
     private fun setupClickListeners() {
         binding.cardView2.setOnClickListener {
-            findNavController().navigate(R.id.action_navigation_home_to_navigation_diagnose)
+            findNavController().navigate(R.id.navigation_diagnose)
         }
         binding.cardView.setOnClickListener {
             findNavController().navigate(R.id.action_navigation_home_to_historyFragment)
