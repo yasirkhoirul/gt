@@ -183,12 +183,18 @@ class DiagnoseFragment : Fragment() {
                 override fun onResponse(call: Call<Postpredict>, response: Response<Postpredict>) {
                     val responseBody = response.body()
                     if (response.isSuccessful && responseBody != null) {
-                        Log.d("responredict", responseBody.msg.toString())
-                        Log.d("responredict", responseBody.predictionsBinary.toString())
+//                        Log.d("responredict", responseBody.msg.toString())
+//                        Log.d("responredict", responseBody.predictionsBinary.toString())
                         if (responseBody.predictionsBinary==1){
-                            findNavController().navigate(R.id.action_navigation_diagnose_to_stunting)
-                        }else{
+                            Log.d("responredict", responseBody.msg.toString())
+                            Log.d("responredict", responseBody.predictionsBinary.toString())
                             findNavController().navigate(R.id.action_navigation_diagnose_to_tidakStunting)
+//                            findNavController().navigate(R.id.action_navigation_diagnose_to_stunting)
+                        }else{
+                            Log.d("responredict", responseBody.msg.toString())
+                            Log.d("responredict", responseBody.predictionsBinary.toString())
+//                            findNavController().navigate(R.id.action_navigation_diagnose_to_tidakStunting)
+                            findNavController().navigate(R.id.action_navigation_diagnose_to_stunting)
                         }
                     } else {
                         Log.d("responredict", "onFailure: ${response.message()}")

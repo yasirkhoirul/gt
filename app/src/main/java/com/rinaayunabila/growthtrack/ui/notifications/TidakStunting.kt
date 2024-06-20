@@ -19,7 +19,6 @@ class TidakStunting : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val intent = Intent(this@TidakStunting, MainActivity2::class.java)
-        startActivity(intent)
+
     }
 }
