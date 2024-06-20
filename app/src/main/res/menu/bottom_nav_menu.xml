@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    minimal mempunyai atribut id, icon dan title -->
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_rumahsakit"
+        android:icon="@drawable/solar_hospital_linear"
+        android:title="Hospital" />
+
+    <item
+        android:id="@+id/navigation_diagnose"
+        android:icon="@drawable/diagnose"
+        android:title="Diagnose" />
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/history"
+        android:title="History"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/circlehitam"
+        android:title="Profile"/>
+
+</menu>

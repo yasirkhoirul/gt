@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.rinaayunabila.growthtrack.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_articleActivity"
+            app:destination="@id/articleActivity" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_diagnose"
+            app:destination="@id/navigation_diagnose" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_rumahsakit"
+            app:destination="@id/navigation_rumahsakit" />
+        <action
+            android:id="@+id/action_navigation_home_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_rumahsakit"
+        android:name="com.rinaayunabila.growthtrack.ui.dashboard.DashboardFragment"
+        android:label="Hospital"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_diagnose"
+        android:name="com.rinaayunabila.growthtrack.ui.notifications.DiagnoseFragment"
+        android:label="Diagnose"
+        tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/action_navigation_diagnose_to_tidakStunting"
+            app:destination="@id/tidakStunting" />
+        <action
+            android:id="@+id/action_navigation_diagnose_to_stunting"
+            app:destination="@id/stunting" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.rinaayunabila.growthtrack.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.rinaayunabila.growthtrack.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/articleActivity"
+        android:name="com.rinaayunabila.growthtrack.ui.ArticleActivity"
+        android:label="Artikel"
+        tools:layout="@layout/activity_article" />
+    <activity
+        android:id="@+id/stunting"
+        android:name="com.rinaayunabila.growthtrack.ui.notifications.Stunting"
+        android:label="activity_stunting"
+        tools:layout="@layout/activity_stunting" />
+    <activity
+        android:id="@+id/tidakStunting"
+        android:name="com.rinaayunabila.growthtrack.ui.notifications.TidakStunting"
+        android:label="activity_tidak_stunting"
+        tools:layout="@layout/activity_tidak_stunting" />
+</navigation>

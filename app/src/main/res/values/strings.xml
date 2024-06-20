@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Growth Track</string>
+    <string name="app_names">STORY APP</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="get_started">Get Started</string>
+    <string name="name">Name</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="logout">Logout</string>
+    <string name="warning_email">Must be in email format</string>
+    <string name="warning_password">Minimum 8 Characters</string>
+    <string name="retry">Retry</string>
+    <string name="description">Enter a description for the Story</string>
+    <string name="story_description">Story Description</string>
+    <string name="signin_description">Welcome to Stroy App by Rina</string>
+    <string name="signin_description2">Share your story here</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="or">Or</string>
+    <string name="map">Map</string>
+    <string name="add_story">Add Story</string>
+    <string name="add">Add</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="username">Username</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="title_menu_1">Welcome</string>
+    <string name="title_menu_2">Measuring Stunting</string>
+    <string name="title_menu_3">Recommendations</string>
+    <string name="desc_menu_1">Welcome, together we can prevent stunting for a healthier future for children!</string>
+    <string name="desc_menu_2">Quickly measure your childs growth to see if there are signs of stunting.</string>
+    <string name="desc_menu_3">If stunting is detected, we will provide appropriate food recommendations for your child!</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nama_user">nama user</string>
+    <string name="profle">profile</string>
+    <string name="icon">icon</string>
+    <string name="usernamedetail">Username</string>
+
+    <string name="pw">**********</string>
+    <string name="yasirkhoirul9_gmail_com">yasirkhoirul9@gmail.com</string>
+    <string name="edit">edit</string>
+    <string name="history">history</string>
+    <string name="usia_bayi">Usia Bayi</string>
+    <string name="tinggi_badan_cm">Tinggi Badan (Cm)</string>
+    <string name="berat_badan_kg">Berat Badan (kg)</string>
+    <string name="tidak">Tidak</string>
+    <string name="iya">Iya</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="menyusui">Menyusui</string>
+    <string name="diagnose">Diagnose</string>
+    <string name="nama_bayi">Nama Bayi</string>
+    <string name="anak_anda_terindikasi_stunting">Anak anda terindikasi stunting</string>
+    <string name="bahaya">BAHAYA</string>
+    <string name="usia_6_8_bulan">Usia 6- 8 bulan</string>
+    <string name="standar_makanan_tambahan_lokal_untuk_balita">Standar Makanan tambahan Lokal untuk Balita</string>
+    <string name="google_maps_key">AIzaSyDKIgpkZOdMA1PVQjcPGsvZKslJHQ4WWhk</string>
+    <string name="angka_kecukupan_gizi">angka kecukupan gizi</string>
+    <string name="tittle">tittle</string>
+    <string name="content">content</string>
+    <string name="article">Article</string>
+
+</resources>
