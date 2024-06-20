@@ -188,13 +188,13 @@ class DiagnoseFragment : Fragment() {
                         if (responseBody.predictionsBinary==1){
                             Log.d("responredict", responseBody.msg.toString())
                             Log.d("responredict", responseBody.predictionsBinary.toString())
-                            findNavController().navigate(R.id.action_navigation_diagnose_to_tidakStunting)
-//                            findNavController().navigate(R.id.action_navigation_diagnose_to_stunting)
+
+                            findNavController().navigate(R.id.action_navigation_diagnose_to_stunting)
                         }else{
                             Log.d("responredict", responseBody.msg.toString())
                             Log.d("responredict", responseBody.predictionsBinary.toString())
-//                            findNavController().navigate(R.id.action_navigation_diagnose_to_tidakStunting)
-                            findNavController().navigate(R.id.action_navigation_diagnose_to_stunting)
+                            findNavController().navigate(R.id.action_navigation_diagnose_to_tidakStunting)
+
                         }
                     } else {
                         Log.d("responredict", "onFailure: ${response.message()}")
